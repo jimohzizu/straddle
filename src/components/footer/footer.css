@@ -148,6 +148,7 @@ hr {
         width: 15px;
         display: flex;
         margin-bottom: 2rem;
+        margin-left: -0.9rem;
     }
 
     .middle__content-contact {
