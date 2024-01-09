@@ -281,12 +281,12 @@
 
 }
 
-.team {
+/* .team {
     width: 1352px;
     height: 388px;
 
 
-}
+} */
 
 .team__image img {
     width: 200px;
@@ -296,7 +296,7 @@
 }
 
 .team__text {
-    margin: 1rem 7rem 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .team__text h3 {
@@ -320,12 +320,13 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+    margin-bottom: 0.5rem;
 
 }
 
 .team__actual {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -339,14 +340,14 @@
     }
 
     .about__top h1 {
-        font-size: 32px;
+        font-size: 30px;
         text-align: center;
         margin-top: 3rem;
 
     }
 
     .about__top p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         width: 341px;
         height: 28px;
@@ -369,13 +370,13 @@
     }
 
     .about__section h1 {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 50px;
     }
 
 
     .about__section p {
-        font-size: 16px;
+        font-size: 13px;
 
     }
 
@@ -402,13 +403,13 @@
     }
 
     .about__values-text h1 {
-        font-size: 27px;
+        font-size: 21px;
         margin-left: 0.5rem;
     }
 
     .about__values-text p {
 
-        font-size: 16px;
+        font-size: 13px;
         color: #126887;
     }
 
@@ -453,7 +454,7 @@
     }
 
     .values p, .orange p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 20px;
         text-align: left;
         color: #455A64;
@@ -477,14 +478,14 @@
     }
 
     .work__with-text h1 {
-        font-size: 25px;
+        font-size: 23px;
         line-height: 30px;
         margin-bottom: 2rem;
 
     }
 
     .work__with p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 18px;
         width: 350px;
         height: 28px;
@@ -500,14 +501,14 @@
     }
 
     .meet__team {
-        height: 97rem;
+        height: 100rem;
 
     }
 
     .meet__team-text {
         width: 350px;
         height: 80px;
-        margin-bottom: 7rem;
+        margin-bottom: 0rem;
 
     }
 
@@ -536,15 +537,21 @@
     }
 
     .team__text {
-        width: 202px;
+        width: 227px;
     }
 
     .team__text h3 {
 
-        font-size: 27px;
+        font-size: 25px;
         line-height: 28px;
         text-align: center;
 
+    }
+    .team__image img {
+        width: 200px;
+        height: 100px;
+        height: 187px;
+        border-radius: 50%;
     }
 
     .team__socials {
@@ -553,7 +560,7 @@
     }
 
     .team__text p {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 17px;
         text-align: center;
 
@@ -566,7 +573,7 @@
 
     }
 
-    .team__socials img {
+    .team__socials .socials {
         height: 20px;
         width: 20px;
     }

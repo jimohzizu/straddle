@@ -112,7 +112,7 @@ span {
 
 .comp {
     width: 37rem;
-    height: 30rem;
+    height: 34rem;
     padding: 2rem;
     border-radius: 33px;
     background-color: rgb(237, 248, 247);
@@ -186,16 +186,24 @@ span {
     
 }
 
-.comp:hover img{
+.comp:hover .white {
     display: block;
     position: absolute;
-    width: 281px;
-    height: 417px;
+    width: 239px;
+    height: 481px;
+    border-radius: 25px 25px 25px 0;
     margin-top: 2rem;
-    border-bottom-right-radius: 44px;
-
+    margin-left: 1rem;
 }
-
+.comp:hover .dark {
+    display: block;
+    position: absolute;
+    width: 273px;
+    height: 497px;
+    margin-top: 1rem;
+    border-bottom-right-radius: 33px;
+   
+}
 .comp h1 {
     font-family: "Poppins";
     font-size: 32px;
@@ -210,7 +218,7 @@ span {
 }
 
 .comp p {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -226,7 +234,7 @@ span {
     /* width: 245px; */
     /* height: 200px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
@@ -754,6 +762,9 @@ span {
         height: 258px;
         top: 1rem;
       } 
+      .comp:hover .dark, .comp:hover .white{
+        display: none;
+      }
 
 
     }

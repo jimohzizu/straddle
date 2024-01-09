@@ -11,6 +11,13 @@ import Apple from '../../assets/Apple.png'
 import Iphone from '../../assets/Signup 12.png'
 import Ellipse from "../../assets/Ellipse 6.png";
 import Iphone12 from "../../assets/iPhone 12 Graphite Pro Top View Mockup.png";
+import block from '../../assets/block view.png'
+import light from '../../assets/Light.png'
+import news from '../../assets/News Screen.png'
+import upload from '../../assets/Upload Ads.png'
+import profile from '../../assets/Profile.png'
+import home from '../../assets/Home Screen (1).png'
+import main from '../../assets/main.png'
 
 const Work = () => {
   return (
@@ -25,32 +32,44 @@ const Work = () => {
           className='comp comp__blue'
             h1="Sign Up"
             p="Trade smarter, faster, and better with our exchange platform by signing up."
+            img1={main}
+            img2={light}
           />
           <Comp
            className='comp comp__darkblue'
             h1="News"
             p="Stay up to date on the latest agribusiness news with our reliable and accurate information."
+            img1={main}
+            img2={news}
           />
           <Comp
            className='comp comp__purple'
             h1="Profile Account"
             p="Build your profile and access all our features to manage your inventory, connect with buyers and sellers in real time.
         "
+         img1={main}
+        img2={profile}
           />
           <Comp
            className='comp comp__yellow'
             h1="Price Aggregation"
             p="Whether buying or selling,  Be confident you're getting the best possible price."
+            img1={main}
+            img2={home}
           />
           <Comp
            className='comp comp__text-yellow'
             h1={"Advertise & Sell Commodities"}
             p="Maximize profits by easily advertising and selling your goods, reaching global buyers, and getting the best prices."
+            img1={main}
+            img2={upload}
           />
           <Comp
            className='comp comp__black'
             h1="Buy Commodities"
             p="Our advanced search filters makes it easier to find the right price for your next purchase."
+            img1={main}
+            img2={block}
           />
         </div>
 
@@ -60,7 +79,7 @@ const Work = () => {
   );
 };
 
-const Comp = ({ h1, p, className}) => {
+const Comp = ({ h1, p, className,img1,img2}) => {
   return (
     <div className={className}>
       <div className="comp__text">
@@ -68,7 +87,8 @@ const Comp = ({ h1, p, className}) => {
       <p>{p}</p>
       </div>
      <div className="comp__phone">
-     <img className="slideInRight" src={Iphone} alt="" />
+     <img className="dark" src={img1} />
+     <img  className='white' src={img2} />
      </div>
       
     </div>
