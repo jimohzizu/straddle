@@ -57,7 +57,7 @@ const Footer = () => {
 
       <hr />
       <p className="rights section__padding">
-        © 2023 Straddle. All rights reserved.
+        © 2024 Straddle. All rights reserved.
       </p>
     </div>
   );
