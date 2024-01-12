@@ -43,6 +43,7 @@ hr {
 .middle__content {
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 
 .middle__content p {
@@ -88,6 +89,8 @@ hr {
     font-weight: 500;
     line-height: 24px;
     text-align: left;
+    padding: 2rem;
+
 
 }
 
@@ -188,6 +191,7 @@ hr {
         font-size: 14px;
         height: 1rem;
         margin-top: 5rem;
+       
     }
 
     .white__logo {

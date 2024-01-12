@@ -243,6 +243,7 @@ span {
     width: 821px;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
 }
 
 
@@ -263,6 +264,11 @@ span {
     line-height: 36px;
     color: #0C455A;
 }
+.straddle__different{
+    margin-left: 4rem;
+    padding: 0;
+}
+
 
 .straddle__different h1 {
     font-family: 'Poppins', sans-serif;
@@ -468,6 +474,80 @@ span {
 }
 
 
+@media screen and (max-width:1050px) {
+.straddle__header-content h1 {
+    font-size: 35px;
+    margin-top: -1rem;
+}
+.straddle__header-content p {
+  font-size: 15px;
+    margin-top: 2rem;
+}
+
+
+.straddle__header-content__input input {
+width: 262px;
+height: 38px;
+margin-right: 15px;
+}
+
+.comp {
+    width: 28rem;
+    height: 31rem;
+    padding: 2rem;
+    border-radius: 29px;
+}
+.comp:hover .dark,.comp:hover .white{
+    display: none;
+}
+
+.straddle__different h1 {
+      font-size: 45px;
+        margin: 1rem 0;
+}
+.different__model{
+    width: 224px;
+}
+.different__model p {
+    font-style: 24px;
+    margin: 0 0 2rem 0;
+}
+.blurry {
+    width: 15rem;
+    
+}
+.soya{
+    width: 17rem;
+}
+.oil__blurry {
+    width: 16rem;
+    margin: 0px 2rem;
+}
+.oil {
+    width: 18rem;
+    margin: 0 1rem;
+}
+.Signup{
+    justify-content: space-around;
+}
+.different__container{
+    width: 980px;
+}
+.different__content {
+    width: 293px;
+
+}
+.different__blurry,.different__card {
+    width: 136px;
+    height: 152px;
+}
+
+.different__marketplace {
+    width: 311px;
+}
+
+}
+
 @media screen and (max-width:550px) { 
     .straddle__header {
         display: flex;
@@ -615,6 +695,10 @@ span {
         line-height: 15px;
         width: 15rem;
     }
+    .straddle__different {
+        padding: 2rem;
+        margin-left: 0;
+    }
 
     .straddle__different h1 {
         font-size: 34px;
@@ -711,6 +795,7 @@ span {
     .oil__blurry {
         filter: blur(0.08rem);
         width: 11rem;
+       margin: 0 3rem;
     }
 
     .soya {

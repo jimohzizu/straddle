@@ -1,5 +1,5 @@
 import React from "react";
-import Google from "../../assets/google.png";
+import play from "../../assets/google.png";
 import logo2 from "../../assets/logo2.png";
 import Apple from "../../assets/Apple.png";
 import instagram from "../../assets/instagram.png";
@@ -19,7 +19,7 @@ const Footer = () => {
         <h1>Ready to get started with Straddle?</h1>
         <div className="top__content-playstore">
           <img src={Apple} />
-         <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img src={Google} /></Link>
+         <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img src={play} /></Link>
         </div>
       </div>
       <hr />
@@ -35,8 +35,9 @@ const Footer = () => {
           <Link to="/Term Of Use">  <p>Term Of Use</p></Link>
         
             <div className="middle__content-socials">
-              <img src={twitter} />
-              <img src={linkedin} />
+             <Link to="https://x.com/straddleng?s=11&t=zXekdff505v04gqz78hZTQ"><img src={twitter} /></Link> 
+             <Link to="https://www.linkedin.com/company/strad-dle/"><img src={linkedin} /></Link> 
+              
               <img src={instagram} />
               <img src={facebook} />
             </div>

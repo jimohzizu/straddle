@@ -54,7 +54,6 @@ const Aboutus = () => {
       <div className="about__values section__padding">
         <div className="about__values-text">
           <h1>Straddle's Values</h1>
-          <p>In egestas egestas egestas velit.</p>
         </div>
 
         <div className="about__excellence">
@@ -89,7 +88,7 @@ const Aboutus = () => {
           </p>
         </div>
 
-        <button>View open roles</button>
+       <Link to="/"> <button>View open roles</button></Link>
       </div>
 
       <div className="meet__team section__padding">

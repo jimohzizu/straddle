@@ -30,6 +30,9 @@
 
 
 }
+.about__top-video{
+    padding: 2rem;
+}
 
 .yellow {
     color: #FFDC66;
@@ -147,7 +150,7 @@
 
 .about__excellence {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .about__center .reverse {
@@ -289,9 +292,8 @@
 } */
 
 .team__image img {
-    width: 200px;
-    height: 10ox;
-    height: 187px;
+    width: 156px;
+    height: 147px;
     border-radius: 50%;
 }
 
@@ -329,6 +331,62 @@
     justify-content: space-around;
 
 }
+
+@media screen and (max-width:1050px) {
+    .about__top {
+        height: 736px;
+    }
+    .about__section img {
+        width: 417px;
+        height: 425px;
+    }
+    .orange {
+        margin: 0 1rem;
+    }
+
+    .video{
+        width: 900px;
+        height: 500px;
+    }
+
+    .about__section img {
+        width: 417px;
+        height: 425px;
+    }
+    .about__section-text {
+        width: 360px;
+        height: 186px;
+    }
+    .work__with p {
+        width: 881px;
+        height: 44px;
+        font-size: 14px;
+    }
+    .work__with button {
+        width: 289px;
+        height: 44px;
+        margin-left: 20rem;
+
+}
+.meet__team-text {
+    width: 959px;
+    height: 63px;
+}
+.top__content-playstore {
+    display: flex;
+}
+.question button {
+    margin: 2rem 0rem 0rem 26rem;
+}
+
+
+.top__content h1 {
+    margin: 2rem 0rem 0 0;
+}
+}
+
+
+
 
 
 @media screen and (max-width:550px) {

@@ -125,6 +125,21 @@ li:hover{
         font-family: 'Poppins', sans-serif;
     
     }
+    .straddle__navbar-menu_container-links li {
+        margin: 1rem;
+        color: white;
+    }
+    li:hover{
+        color: #5FCAF2;
+    }
+    .straddle__navbar-links_container p,
+    .straddle__navbar-contact p,
+    .straddle__navbar-menu_container p {
+    
+        color: white;
+        font-family: var(--font-family);
+    }
+   
 }
 
 @media screen and (max-width:700px) {

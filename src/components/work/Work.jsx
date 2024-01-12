@@ -6,7 +6,7 @@ import oil from "../../assets/oil.png";
 import card from "../../assets/Card.png";
 import playstore from '../../assets/playstore.png'
 import applestore from '../../assets/applestore.png'
-import Google from '../../assets/Google.png'
+import play from '../../assets/Google.png'
 import Apple from '../../assets/Apple.png'
 import Iphone from '../../assets/Signup 12.png'
 import Ellipse from "../../assets/Ellipse 6.png";
@@ -117,7 +117,7 @@ const Header = () => {
      
       <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img  className ='apple 'src={Apple} alt="Apple" /></Link>
      
-      <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img className='google' src={Google} alt="Google" /></Link>
+      <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img className='google' src={play} alt="Google" /></Link>
      
     </div>
     </div>
@@ -146,7 +146,7 @@ const About = () => {
 
 const Different = () => {
   return (
-    <div className="straddle__different section__padding">
+    <div className="straddle__different">
       <h1>
         How we are <span>different?</span>
       </h1>
@@ -202,7 +202,7 @@ const Blurry = () => {
         </div>
        
         <div className="Signup__playstore">
-        <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"><img  src={Google}/></Link>
+        <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"><img  src={play}/></Link>
         <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle">  <img src={Apple} /></Link>
      
       
