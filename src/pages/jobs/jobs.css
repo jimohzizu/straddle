@@ -1,0 +1,78 @@
+.Jobs {
+    display: flex;
+}
+
+.Jobs-text {
+    margin-bottom: 5rem;
+}
+
+.Jobs-text h1 {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    margin-bottom: 3rem;
+
+}
+
+.Jobs-text p {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.003em;
+    text-align: left;
+
+}
+
+.Jobs-text button {
+    width: 257px;
+    height: 56px;
+    padding: 8px;
+    border-radius: 5px;
+    gap: 8px;
+    background-color: #12A3D8;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width:1050px) {
+    .Jobs-image {
+        display: none;
+    }
+
+    .Jobs-text h1 {
+        font-size: 25px;
+    }
+
+    .Jobs-text p {
+        font-size: 15px;
+    }
+
+    
+}
+
+@media screen and (max-width:550px) {
+    .Jobs-image {
+        display: none;
+    }
+
+    .Jobs-text h1 {
+        font-size: 20px;
+    }
+
+    .Jobs-text p {
+        font-size: 13px;
+    }
+
+    .Jobs-text button {
+        width: 187px;
+        height: 37px;
+        padding: 6px;
+        border-radius: 3px;
+        gap: 4px;
+    }
+
+}

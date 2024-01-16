@@ -565,7 +565,7 @@ margin-right: 15px;
         flex-direction: column;
         margin-right: 0;
         position: relative;
-        bottom: 43px;
+        bottom: 38px;
         width: 350px;
 
     }
@@ -584,6 +584,7 @@ margin-right: 15px;
         font-weight: 500;
         font-size: 15px;
         line-height: 26px;
+        margin-top: 22px;
   
 
     }
@@ -624,6 +625,8 @@ margin-right: 15px;
     .straddle__header-image {
         height: 18rem;
     }
+    
+   
 
     .ellipse {
         display: none;
@@ -632,7 +635,7 @@ margin-right: 15px;
     .iphone {
         height: 300px;
         /* position: relative; */
-        margin-top: 28rem;
+        margin-top: 24rem;
         left: 5rem;
       
         
@@ -845,7 +848,7 @@ margin-right: 15px;
 
     .container {
         height: 258px;
-        top: 1rem;
+        top: 3rem;
       } 
       .comp:hover .dark, .comp:hover .white{
         display: none;

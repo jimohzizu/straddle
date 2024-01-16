@@ -88,7 +88,7 @@ const Aboutus = () => {
           </p>
         </div>
 
-       <Link to="/"> <button>View open roles</button></Link>
+       <Link to="/Jobs"> <button>View open roles</button></Link>
       </div>
 
       <div className="meet__team section__padding">

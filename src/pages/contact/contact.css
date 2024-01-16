@@ -50,12 +50,14 @@ input {
     border: 10px;
     border: 1px solid #E2E2E2;
     margin-bottom: 15px;
+    padding-left: 1rem;
 }
 
 textarea {
     resize: none;
     border: 2px solid #E2E2E2;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .contact__us button {

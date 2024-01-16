@@ -499,8 +499,7 @@
         padding: 40px;
         border-radius: 9px;
         background-color:  #FFD03366;
-    
-
+        margin-left: 0;
     }
 
     .values h1, .orange h1 {

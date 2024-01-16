@@ -11,13 +11,13 @@ const Menu = () => (
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/About Us">About Us</Link>
+        <Link to="/About-Us">About Us</Link>
       </li>
       <li>
         <Link to="/FAQ">FAQs</Link>
       </li>
       <li>
-        <Link to="/Term Of Use">Term Of Use</Link>
+        <Link to="/Term-Of-Use">Term Of Use</Link>
       </li>
     
   </>
@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       <div className="straddle__navbar-contact">
         <button type="button">
-          <Link to="/Contact Us">Contact Us</Link>
+          <Link to="/Contact-Us">Contact Us</Link>
         </button>
       </div>
       <div className="straddle__navbar-menu">
@@ -63,7 +63,7 @@ const Navbar = () => {
               <Menu />
               <div className="straddle__navbar-menu_contact">
                 <button type="button">
-                  <Link to="/Contact Us">Contact Us</Link>
+                  <Link to="/Contact-Us">Contact Us</Link>
                 </button>
               </div>
             </div>

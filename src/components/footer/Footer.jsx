@@ -19,27 +19,46 @@ const Footer = () => {
         <h1>Ready to get started with Straddle?</h1>
         <div className="top__content-playstore">
           <img src={Apple} />
-         <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle"> <img src={play} /></Link>
+          <Link to="https://play.google.com/store/apps/details?id=com.lagmex.straddle">
+            {" "}
+            <img src={play} />
+          </Link>
         </div>
       </div>
       <hr />
       <div className="middle__content section__padding">
         <div className="white__logo">
-        <Link to="/"><img src={logo2} /></Link>
-         
+          <Link to="/">
+            <img src={logo2} />
+          </Link>
+
           <p>Join our Straddle Community today</p>
         </div>
         <div className="middle__content-container">
           <div className="middle__content-middle">
-          <Link to="/Privacy Policy">  <p>Privacy Policy</p></Link>
-          <Link to="/Term Of Use">  <p>Term Of Use</p></Link>
-        
+            <Link to="/Privacy-Policy">
+              {" "}
+              <p>Privacy Policy</p>
+            </Link>
+            <Link to="/Term-Of-Use">
+              {" "}
+              <p>Term Of Use</p>
+            </Link>
+
             <div className="middle__content-socials">
-             <Link to="https://x.com/straddleng?s=11&t=zXekdff505v04gqz78hZTQ"><img src={twitter} /></Link> 
-             <Link to="https://www.linkedin.com/company/strad-dle/"><img src={linkedin} /></Link> 
-              
-              <img src={instagram} />
-              <img src={facebook} />
+              <Link to="https://twitter.com/StraddleNG">
+                <img src={twitter} />
+              </Link>
+              <Link to="https://www.linkedin.com/company/90968111/admin/feed/posts/">
+                <img src={linkedin} />
+              </Link>
+              <Link to="https://www.instagram.com/straddleng/">
+                {" "}
+                <img src={instagram} />
+              </Link>
+              <Link to="https://web.facebook.com/profile.php?id=61555254060447">
+                <img src={facebook} />
+              </Link>
             </div>
           </div>
           <div className="middle__content-contact">

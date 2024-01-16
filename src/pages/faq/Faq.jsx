@@ -22,6 +22,7 @@ const Faq = () => {
     </Accordion>
     <Accordion title="What are the user roles on the platform?">
     Buyer: interested in purchasing agricultural raw materials.
+    <br />
     Seller: wants to list agricultural raw materials for sale.
     </Accordion>
     <Accordion title="How do I become a seller with straddle?">
@@ -43,7 +44,7 @@ const Faq = () => {
       <div className="question">
         <h3>Still have questions?</h3>
         <p>Can’t find the answer you’re looking for? Send us a message</p>
-       <Link to="/Contact Us"><button>Contact us</button></Link>
+       <Link to="/Contact-Us"><button>Contact us</button></Link>
       </div>
       
      
