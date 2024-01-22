@@ -473,6 +473,9 @@ span {
     background-color: black;
 }
 
+.Iphone12 .mobile{
+    display: none;
+} 
 
 @media screen and (max-width:1050px) {
 .straddle__header-content h1 {
@@ -591,16 +594,17 @@ margin-right: 15px;
 
     .straddle__header-content__input {
         margin-top: 1rem;
-        width: 300px;
-    
+        width: 340px;
+        display: block;
     
     }
 
     .straddle__header-content__input button {
 
         border-radius: 6px;
-        padding: 5px 20px;
-        font-size: 12px;
+       width: 314px;
+        font-size: 16px;
+        color: white;
         height: 45px;
         border: none;
      
@@ -629,13 +633,15 @@ margin-right: 15px;
    
 
     .ellipse {
-        display: none;
+        height: 294px;
+        left: 40px;
+        top: 3rem;
     }
 
     .iphone {
-        height: 300px;
+        height: 340px;
         /* position: relative; */
-        margin-top: 24rem;
+        margin-top: 6rem;
         left: 5rem;
       
         
@@ -840,14 +846,20 @@ margin-right: 15px;
 
     }
 
-    .Iphone12 img {
-        height: 300px;
-        margin: 0 0.5rem;
+    .Iphone12 .web {
+        display: none;
+    }
+
+    .Iphone12 .mobile{
+        display: block;
+        height: 437px;
+        width: 207px;
+        margin: 0 3.5rem;
     }
 
 
     .container {
-        height: 258px;
+        height: 224px;
         top: 3rem;
       } 
       .comp:hover .dark, .comp:hover .white{

@@ -13,6 +13,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+   
 }
 
 .straddle__navbar-links_logo {
@@ -51,6 +52,9 @@
 
 ul {
     list-style: none;
+}
+li{
+    width: max-content;
 }
 
 li:hover {

@@ -9,6 +9,7 @@ import applestore from '../../assets/applestore.png'
 import play from '../../assets/Google.png'
 import Apple from '../../assets/Apple.png'
 import Iphone from '../../assets/Signup 12.png'
+import Iphone1 from '../../assets/iPhone 1.png'
 import Ellipse from "../../assets/Ellipse 6.png";
 import Iphone12 from "../../assets/iPhone 12 Graphite Pro Top View Mockup.png";
 import block from '../../assets/block view.png'
@@ -210,7 +211,8 @@ const Blurry = () => {
         
       </div>
       <div className="Iphone12">
-        <img src ={Iphone}/>
+        <img className="web" src ={Iphone}/>
+        <img className="mobile" src ={Iphone1}/>
       </div>
     </div>
   )

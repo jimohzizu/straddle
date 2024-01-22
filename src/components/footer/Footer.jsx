@@ -63,12 +63,13 @@ const Footer = () => {
           </div>
           <div className="middle__content-contact">
             <div className="contact">
-              <img src={messages} />
-              <p>admin@straddle.site</p>
+            <img src={phone} />
+              <p>09072203493</p>
             </div>
             <div className="contact">
-              <img src={phone} />
-              <p>09072203493</p>
+              
+              <img src={messages} />
+              <p>admin@straddle.site</p>
             </div>
           </div>
         </div>
