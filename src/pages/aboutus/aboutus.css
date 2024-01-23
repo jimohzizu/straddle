@@ -30,7 +30,8 @@
 
 
 }
-.about__top-video{
+
+.about__top-video {
     padding: 2rem;
 }
 
@@ -38,7 +39,7 @@
     color: #FFDC66;
 }
 
-#middle__excellence{
+#middle__excellence {
     background-color: orange !important;
 }
 
@@ -63,24 +64,30 @@
 .about__center-text {
     margin: auto;
 }
-.normal{
+
+.normal {
     display: flex;
 }
-.reverse{
+
+.reverse {
     display: flex;
     flex-direction: row-reverse;
-   
+
 }
-.reverse p,.reverse h1{
-  margin-left: -8rem;
+
+.reverse p,
+.reverse h1 {
+    margin-left: -8rem;
 }
-.reverse img{
+
+.reverse img {
     margin-left: 2rem;
 }
+
 .about__section img {
     width: 600px;
     height: 530px;
-    
+
 }
 
 .about__section-text {
@@ -167,6 +174,7 @@
     background-color: #5FCAF266;
 
 }
+
 .orange {
     width: 357px;
     height: 240px;
@@ -177,7 +185,8 @@
 
 }
 
-.values h1,.orange h1 {
+.values h1,
+.orange h1 {
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
@@ -188,7 +197,8 @@
 
 }
 
-.values p,.orange p {
+.values p,
+.orange p {
     font-family: "Poppins";
     font-size: 11px;
     font-weight: 400;
@@ -332,7 +342,8 @@
     justify-content: space-around;
 
 }
-.video{
+
+.video {
     border: none;
     padding: 0;
 }
@@ -342,15 +353,17 @@
     .about__top {
         height: 736px;
     }
+
     .about__section img {
         width: 417px;
         height: 425px;
     }
+
     .orange {
         margin: 0 1rem;
     }
 
-    .video{
+    .video {
         width: 900px;
         height: 500px;
     }
@@ -359,36 +372,42 @@
         width: 417px;
         height: 425px;
     }
+
     .about__section-text {
         width: 360px;
         height: 186px;
     }
+
     .work__with p {
         width: 881px;
         height: 44px;
         font-size: 14px;
     }
+
     .work__with button {
         width: 289px;
         height: 44px;
         margin-left: 20rem;
 
-}
-.meet__team-text {
-    width: 959px;
-    height: 63px;
-}
-.top__content-playstore {
-    display: flex;
-}
-.question button {
-    margin: 2rem 0rem 0rem 26rem;
-}
+    }
+
+    .meet__team-text {
+        width: 959px;
+        height: 63px;
+    }
+
+    .top__content-playstore {
+        display: flex;
+    }
+
+    .question button {
+        margin: 2rem 0rem 0rem 26rem;
+    }
 
 
-.top__content h1 {
-    margin: 2rem 0rem 0 0;
-}
+    .top__content h1 {
+        margin: 2rem 0rem 0 0;
+    }
 }
 
 
@@ -397,16 +416,28 @@
 
 @media screen and (max-width:550px) {
     .about__top {
-        height: 400px;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        width: 100vw;
+        height: 728px;
+        padding: 184px, 12px, 35px, 13px;
+
+    }
+
+    .about__top-video {
+        padding: 0;
     }
 
     .about__top h1 {
         font-size: 30px;
         text-align: center;
-        margin-top: 3rem;
+        width: 330px;
+        height: 42px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0em;
+        margin-bottom: 1rem;
 
     }
 
@@ -416,6 +447,14 @@
         width: 341px;
         height: 28px;
         margin-bottom: 2rem;
+        width: 330px;
+        height: 84px;
+
+        line-height: 21px;
+        letter-spacing: 0.005em;
+        text-align: center;
+
+
 
     }
 
@@ -428,9 +467,7 @@
     .about__section {
         display: flex;
         flex-direction: column;
-        margin: 5rem 0rem;
-
-
+        margin: 3rem 0rem;
     }
 
     .about__section h1 {
@@ -463,9 +500,14 @@
 
     .about__values-text {
         margin: auto;
-        width: 260px;
+        width: 206px;
         height: 72px;
     }
+
+    #about__pad{
+        padding: 2rem 1rem !important;
+    }
+    
 
     .about__values-text h1 {
         font-size: 21px;
@@ -487,29 +529,31 @@
         display: flex;
         flex-direction: column;
         margin-top: 3rem;
-     
+
     }
 
     .values {
         margin-bottom: 2rem;
-        width: 322px;
+        width: 345px;
         height: 263px;
         padding: 40px;
         border-radius: 9px;
         background-color: #5FCAF266;
 
     }
+
     .orange {
         margin-bottom: 2rem;
-        width: 322px;
+        width: 345px;
         height: 263px;
         padding: 40px;
         border-radius: 9px;
-        background-color:  #FFD03366;
+        background-color: #FFD03366;
         margin-left: 0;
     }
 
-    .values h1, .orange h1 {
+    .values h1,
+    .orange h1 {
         font-size: 19px;
         line-height: 20px;
         text-align: left;
@@ -517,7 +561,8 @@
 
     }
 
-    .values p, .orange p {
+    .values p,
+    .orange p {
         font-size: 13px;
         line-height: 20px;
         text-align: left;
@@ -534,7 +579,10 @@
         margin-top: 1rem;
         display: flex;
         flex-direction: column;
-        height: 23rem;
+        width: 100vw;
+        height: 385px;
+        padding: 0px, 24px, 0px, 24px;
+
     }
 
     .work__with-text {
@@ -549,20 +597,29 @@
     }
 
     .work__with p {
-        font-size: 12px;
-        line-height: 18px;
-        width: 350px;
-        height: 28px;
+
+
         margin-bottom: 3rem;
+        width: 332px;
+        height: 144px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.001em;
+        text-align: justified;
+
+
     }
 
     .work__with button {
-        width: 278px;
-        height: 50px;
-        border-radius: 5px;
-        gap: 8px;
-        margin: 3rem 0rem 0rem 2rem;
+        margin: 0rem;
         font-size: 16px;
+        width: 92vw;
+        height: 40px;
+        padding: 12px, 41px, 12px, 41px;
+        border-radius: 8px;
+        gap: 8px;
+
     }
 
     .meet__team {
@@ -596,8 +653,11 @@
     }
 
     .team img {
-        width: 173px;
-        height: 131px;
+        width: 187.5px;
+        height: 187.5px;
+        border-radius: 156.25px;
+        border: 6.25px;
+        
     }
 
     .team__text {
@@ -611,6 +671,7 @@
         text-align: center;
 
     }
+
     .team__image img {
         width: 200px;
         height: 100px;
@@ -643,24 +704,36 @@
         width: 25px;
     }
 
-    .video {
-        width: 294px;
-        height: 180px;
-        margin-left: -16px;
+    #video {
+        width: 306px;
+        height: 400px;
+        top: 184px;
+        left: 13px;
+        outline: unset;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        object-fit: contain;
     }
-    .normal{
+
+    .normal {
         display: flex;
         flex-direction: column;
     }
-    .reverse{
+
+    .reverse {
         display: flex;
         flex-direction: column;
-       
+
     }
-    .reverse p,.reverse h1{
-      margin-left: 0;
+
+    .reverse p,
+    .reverse h1 {
+        margin-left: 0;
     }
-    .reverse img{
+
+    .reverse img {
         margin-left: 0;
     }
 

@@ -164,37 +164,60 @@
 
 
 }
+
 @media screen and (max-width:1050px) {
-    .question button{
+    .question button {
         margin: 3rem 0rem 0rem 28rem;
     }
 }
 
 @media screen and (max-width:550px) {
     .faq-text {
-        height: 270px;
+        width: 338px;
+        height: 204px;
     }
 
     .faq-text p {
-        font-size: 26px;
+        width: 327px;
+        height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
     }
 
     .faq-text h1 {
 
-        font-size: 32px;
-        line-height: 76px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 330px;
+        height: 84px;
+
+
 
     }
 
     .faq-text h4 {
-        font-size: 15px;
-        line-height: 20px;
-        letter-spacing: 0em;
-        width: 330px;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.005em;
+        text-align: center;
+        width: 339px;
+        height: 72px;
+        color: #0C455A;
+
     }
 
     .wrapper {
-        width: 350px;
+        width: 340px;
     }
 
     .question {
@@ -212,7 +235,10 @@
     }
 
     .question p {
-        font-size: 13px;
+        font-size: 14px;
+        width: 294px;
+        height: 42px;
+
 
     }
 
@@ -228,7 +254,11 @@
     }
 
     .accordion-content {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .section__padding {
+        padding: 4rem 1rem;
     }
 
 }

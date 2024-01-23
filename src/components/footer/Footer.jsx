@@ -25,7 +25,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <hr />
+      <hr  id="playline"/>
       <div className="middle__content section__padding">
         <div className="white__logo">
           <Link to="/">
@@ -62,11 +62,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="middle__content-contact">
-            <div className="contact">
+            <div className="contact" id="number">
             <img src={phone} />
               <p>09072203493</p>
             </div>
-            <div className="contact">
+            <div className="contact" id="message">
               
               <img src={messages} />
               <p>admin@straddle.site</p>
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr />
+      <hr id="line" />
       <p className="rights section__padding">
         © 2024 Straddle. All rights reserved.
       </p>

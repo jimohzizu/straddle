@@ -31,7 +31,7 @@ const Aboutus = () => {
           <Video />
         </div>
       </div>
-      <div className="about__center section__padding">
+      <div className="about__center section__padding" id="about__pad">
         <Section
           className="normal"
           img={farm1}
@@ -51,7 +51,7 @@ const Aboutus = () => {
           p="Our vision is to enable industries discover superior quality raw materials at the right price and get on-time delivery and connect smallholder farmers to large size manufacturers with the large and improve the supply chain."
         />
       </div>
-      <div className="about__values section__padding">
+      <div className="about__values section__padding" id="about__pad">
         <div className="about__values-text">
           <h1>Straddle's Values</h1>
         </div>
@@ -182,7 +182,7 @@ const Video = () => {
     // </video>
 
     <iframe
-      className="video"
+      id="video"
       width="1130"
       height="618"
       src={src}

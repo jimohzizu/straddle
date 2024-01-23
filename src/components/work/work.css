@@ -132,58 +132,74 @@ span {
     margin-bottom: 2rem;
 }
 
- /* .comp:hover .comp img{
+/* .comp:hover .comp img{
     background-color: black;
     display: block;
 } */
 
-.comp{
+.comp {
 
     display: flex;
     position: relative;
 }
-.comp img{
+
+.comp img {
     display: none;
 }
 
- .comp__blue:hover{
-    background-color:#12A3D8;
+.comp__blue:hover {
+    background-color: #12A3D8;
 }
- .comp__blue:hover h1, .comp__blue:hover p{
+
+.comp__blue:hover h1,
+.comp__blue:hover p {
     color: white;
 }
- .comp__darkblue:hover{
-    background-color:#032e3d;
+
+.comp__darkblue:hover {
+    background-color: #032e3d;
 }
- .comp__darkblue:hover p{
-    color:white;
+
+.comp__darkblue:hover p {
+    color: white;
 }
- .comp__purple:hover{
-    background-color:#6357c0;
+
+.comp__purple:hover {
+    background-color: #6357c0;
 }
- .comp__purple:hover h1,.comp__purple:hover p {
-   color: white;
+
+.comp__purple:hover h1,
+.comp__purple:hover p {
+    color: white;
 }
- .comp__yellow:hover{
-    background-color:#e1f00b;
+
+.comp__yellow:hover {
+    background-color: #e1f00b;
 }
- .comp__yellow:hover h1,
- .comp__yellow:hover p{
-   color: black;
+
+.comp__yellow:hover h1,
+.comp__yellow:hover p {
+    color: black;
 }
- .comp__text-yellow:hover{
-    background-color:#12A3D8;
+
+.comp__text-yellow:hover {
+    background-color: #12A3D8;
 }
- .comp__text-yellow:hover h1, .comp__text-yellow:hover p{
-   color: yellow;
+
+.comp__text-yellow:hover h1,
+.comp__text-yellow:hover p {
+    color: yellow;
 }
- .comp__black:hover{
-    background-color:black;
-    
+
+.comp__black:hover {
+    background-color: black;
+
 }
- .comp__black:hover h1, .comp__black:hover p{
-  color: white;
-    
+
+.comp__black:hover h1,
+.comp__black:hover p {
+    color: white;
+
 }
 
 .comp:hover .white {
@@ -195,6 +211,7 @@ span {
     margin-top: 2rem;
     margin-left: 1rem;
 }
+
 .comp:hover .dark {
     display: block;
     position: absolute;
@@ -202,8 +219,9 @@ span {
     height: 497px;
     margin-top: 1rem;
     border-bottom-right-radius: 33px;
-   
+
 }
+
 .comp h1 {
     font-family: "Poppins";
     font-size: 32px;
@@ -264,7 +282,8 @@ span {
     line-height: 36px;
     color: #0C455A;
 }
-.straddle__different{
+
+.straddle__different {
     margin-left: 4rem;
     padding: 0;
 }
@@ -425,226 +444,266 @@ span {
     top: 7rem;
     left: 0rem;
 }
-  
+
 .container>h1 {
     font-size: 49px;
     text-transform: uppercase;
     color: #06232D;
     opacity: 0;
     height: 0px;
-    }
-  .container>h1:nth-child(1){
+}
+
+.container>h1:nth-child(1) {
     animation: animation 12s infinite;
-  }
-  .container>h1:nth-child(2){
+}
+
+.container>h1:nth-child(2) {
     animation: animation 12s infinite;
     animation-delay: 4s;
-  }
-  .container>h1:nth-child(3){
+}
+
+.container>h1:nth-child(3) {
     animation: animation 12s infinite;
     animation-delay: 8s;
-  }
-  @keyframes animation {
-      0% {opacity: 0; height: auto;}
-      16% {opacity: 1;}
-      33% {opacity: 0; height: 0px;}
-      100% {opacity: 0; height: 0px;}
-  }
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        height: auto;
+    }
+
+    16% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+        height: 0px;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0px;
+    }
+}
 
 .slideInRight {
-   
+
     animation-name: slideInRight;
     animation-duration: 0.8s;
     animation-fill-mode: both;
-    }
+}
 
-    @keyframes slideInRight {
+@keyframes slideInRight {
     0% {
 
-    transform: translate(5em,3em);
-    visibility:hidden;
+        transform: translate(5em, 3em);
+        visibility: hidden;
     }
+
     100% {
-    transform: translate(0);
+        transform: translate(0);
     }
-    } 
-  
-.comp .straddle__comp .comp__signup:hover{
+}
+
+.comp .straddle__comp .comp__signup:hover {
     background-color: black;
 }
 
-.Iphone12 .mobile{
+.Iphone12 .mobile {
     display: none;
-} 
+}
 
 @media screen and (max-width:1050px) {
-.straddle__header-content h1 {
-    font-size: 35px;
-    margin-top: -1rem;
-}
-.straddle__header-content p {
-  font-size: 15px;
-    margin-top: 2rem;
-}
+    .straddle__header-content h1 {
+        font-size: 35px;
+        margin-top: -1rem;
+    }
+
+    .straddle__header-content p {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
 
 
-.straddle__header-content__input input {
-width: 262px;
-height: 38px;
-margin-right: 15px;
-}
+    .straddle__header-content__input input {
+        width: 262px;
+        height: 38px;
+        margin-right: 15px;
+    }
 
-.comp {
-    width: 28rem;
-    height: 31rem;
-    padding: 2rem;
-    border-radius: 29px;
-}
-.comp:hover .dark,.comp:hover .white{
-    display: none;
-}
+    .comp {
+        width: 28rem;
+        height: 31rem;
+        padding: 2rem;
+        border-radius: 29px;
+    }
 
-.straddle__different h1 {
-      font-size: 45px;
+    .comp:hover .dark,
+    .comp:hover .white {
+        display: none;
+    }
+
+    .straddle__different h1 {
+        font-size: 45px;
         margin: 1rem 0;
-}
-.different__model{
-    width: 224px;
-}
-.different__model p {
-    font-style: 24px;
-    margin: 0 0 2rem 0;
-}
-.blurry {
-    width: 15rem;
-    
-}
-.soya{
-    width: 17rem;
-}
-.oil__blurry {
-    width: 16rem;
-    margin: 0px 2rem;
-}
-.oil {
-    width: 18rem;
-    margin: 0 1rem;
-}
-.Signup{
-    justify-content: space-around;
-}
-.different__container{
-    width: 980px;
-}
-.different__content {
-    width: 293px;
+    }
+
+    .different__model {
+        width: 224px;
+    }
+
+    .different__model p {
+        font-style: 24px;
+        margin: 0 0 2rem 0;
+    }
+
+    .blurry {
+        width: 15rem;
+
+    }
+
+    .soya {
+        width: 17rem;
+    }
+
+    .oil__blurry {
+        width: 16rem;
+        margin: 0px 2rem;
+    }
+
+    .oil {
+        width: 18rem;
+        margin: 0 1rem;
+    }
+
+    .Signup {
+        justify-content: space-around;
+    }
+
+    .different__container {
+        width: 980px;
+    }
+
+    .different__content {
+        width: 293px;
+
+    }
+
+    .different__blurry,
+    .different__card {
+        width: 136px;
+        height: 152px;
+    }
+
+    .different__marketplace {
+        width: 311px;
+    }
 
 }
-.different__blurry,.different__card {
-    width: 136px;
-    height: 152px;
-}
 
-.different__marketplace {
-    width: 311px;
-}
-
-}
-
-@media screen and (max-width:550px) { 
+@media screen and (max-width:550px) {
     .straddle__header {
         display: flex;
-       
-
         flex-direction: column;
-        /* position: absolute; */
+    }
+
+    br {
+        display: none;
+    }
+
+    .container {
+        height: 224px;
+        top: 6rem;
+    }
+
+    .container h1 {
+        font-family: "Poppins";
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 0;
+        width: 326px;
+
     }
 
     .straddle__header-content {
-
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        margin-right: 0;
         position: relative;
-        bottom: 38px;
-        width: 350px;
-
-    }
-
-    .straddle__header-content h1 {
-        font-weight: 700;
-        font-size: 31px;
-        line-height: 60px;
-        width: 297px;
-      
-    
-
     }
 
     .straddle__header-content p {
+        font-family: "Poppins";
+        font-size: 14px;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 26px;
-        margin-top: 22px;
-  
+        line-height: 21px;
+        letter-spacing: 0.005em;
+        text-align: center;
+        width: 298px;
 
     }
 
     .straddle__header-content__input {
-        margin-top: 1rem;
-        width: 340px;
-        display: block;
-    
+
+        padding: 12px, 14px, 12px, 24px;
+        border-radius: 8px;
+        border: 1px;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .straddle__header-content__input button {
-
-        border-radius: 6px;
-       width: 314px;
-        font-size: 16px;
+        width: 88vw;
+        height: 40px;
+        padding: 12px, 41px, 12px, 41px;
+        border-radius: 8px;
+        gap: 4px;
         color: white;
-        height: 45px;
-        border: none;
-     
-
-
+        margin-right: 0;
     }
 
     .straddle__header-content__input input {
-        width: 313px;
-        height: 45px;
 
-    
+        width: 88vw;
+        height: 46px;
+        padding: 12px, 14px, 12px, 24px;
+        border-radius: 8px;
+        border: 1px;
+        gap: 8px;
+        margin-right: 0;
     }
 
     .straddle__header-content__playstore img {
-        margin: 2rem 0.5rem 0.5rem 0.5rem;
-        height: 40px;
-       
-
+        width: 113.16px;
+        height: 33.21px;
+        margin: 39px -25px 0rem 35px;
     }
 
     .straddle__header-image {
-        height: 18rem;
+        width: 224.57px;
+        height: 290px;
+        top: 425px;
+        left: 99px;
+
     }
-    
-   
 
     .ellipse {
         height: 294px;
         left: 40px;
-        top: 3rem;
+        top: 0rem;
     }
 
     .iphone {
         height: 340px;
-        /* position: relative; */
-        margin-top: 6rem;
+        margin-top: 3rem;
         left: 5rem;
-      
-        
     }
 
     ::placeholder {
@@ -655,9 +714,10 @@ margin-right: 15px;
     }
 
     .straddle__about {
-        width: 400px;
         margin-left: 0rem;
-     
+        width: 316px;
+        height: 212px;
+        text-align: center;
     }
 
 
@@ -665,38 +725,50 @@ margin-right: 15px;
         font-size: 35px;
         line-height: 35px;
         text-align: center;
-        width: 17rem;
+        margin-right: 0;
+        width: 349px;
+        height: 36px;
+        margin-top: 1rem;
+
     }
 
     .straddle__about p {
         font-size: 14px;
         line-height: 25px;
         margin-top: 1rem;
+        width: 337px;
+        height: 168px;
+        color: #0C455A;
+        text-align: center;
+
     }
 
     .comp {
-        width: 25rem;
-        height: 15rem;
+
         padding: 1rem;
-        border-radius: 23px;
         margin-bottom: 1rem;
-        
+        background-color: white;
+        width: 336.6px;
+        height: 290.4px;
+        border-radius: 22px;
+
     }
 
     .text {
-        font-size: 32px;
+        font-size: 40px;
         font-weight: 700;
         line-height: 89px;
-        
+        text-align: center;
+        width: 343px;
+        margin-top: 3rem;
+
     }
 
     .comp h1 {
-
         font-size: 25px;
         font-weight: 600;
         line-height: 44px;
         margin: 1rem 0;
-
     }
 
     .comp p {
@@ -704,27 +776,32 @@ margin-right: 15px;
         line-height: 15px;
         width: 15rem;
     }
+
     .straddle__different {
         padding: 2rem;
         margin-left: 0;
+        width: 18.75px;
     }
 
     .straddle__different h1 {
-        font-size: 34px;
+        font-size: 36px;
         font-weight: 700;
-        line-height: 66px;   
+        line-height: 66px;
+        width: 305px;
 
     }
 
     .blurimage {
         height: 10px;
         width: 20px;
+
     }
 
 
     .blurry {
         filter: blur(0.08rem);
-        width: 13rem;
+        width: 17rem;
+        margin: 0;
     }
 
     .different__model,
@@ -733,35 +810,47 @@ margin-right: 15px;
         flex-direction: column;
         text-align: center;
         width: 282px;
-        /* margin-left: 2rem; */
-        /* height: 300px;     */
-       
+        height: 300px;
     }
+
+
 
     .different__model p {
         font-size: 22px;
         margin-bottom: 1rem;
-        /* margin-right: 2rem; */
-        margin: auto;
+        width: 300px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.001em;
+        text-align: center;
+
     }
 
-    .different__content p,
-    .different__marketplace p {
-        font-size: 22px;
-        margin: auto;
+    .different__content p {
+        font-size: 20px;
         margin-bottom: 2rem;
+        width: 261px;
+        margin: 0;
+    }
+
+    .different__marketplace p {
+        font-size: 20px;
+        width: 288px;
+        height: 45px;
+        margin: 0 0 2rem 0;
+
     }
 
     .different__container {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 318px;
         margin: 0;
 
     }
 
     .different__content {
-        margin: 1rem 0;
+        margin: 3rem 0;
     }
 
     .different__marketplace {
@@ -773,7 +862,9 @@ margin-right: 15px;
     .different__marketplace-image {
         display: flex;
         flex-direction: row;
-        margin:0 1rem 0 -3px;
+        margin: 0px 1rem 0 -23px;
+        /* width: 318.75px; */
+        height: 226.95px;
 
     }
 
@@ -790,44 +881,58 @@ margin-right: 15px;
     }
 
     .download__links {
-        text-align: center;
-        margin-top: 2rem;
+        display: none;
     }
 
     .download__links img {
         margin-left: 1rem;
         width: 40px;
         margin-bottom: 1rem;
-       
+
     }
 
     .oil__blurry {
         filter: blur(0.08rem);
-        width: 11rem;
-       margin: 0 3rem;
+        width: 17rem;
+        margin: 0;
     }
 
     .soya {
-        width: 17rem;
+        width: 19rem;
+        margin-left: -1rem;
     }
 
     .oil {
-        width: 14rem;
+        width: 19rem;
+        margin: 0 -1rem;
+    }
+
+    .Signup__content {
+        width: 305px;
+        height: 187.64px;
+        gap: 16px;
+
     }
 
     .Signup {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 400px;
+        width: 320px;
         margin-right: 1rem;
-   
+
     }
 
     .Signup h1 {
-        width: 20rem;
-        font-size: 22px;
-        margin-right: 1rem;
+        width: 278px;
+        height: 80px;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
     }
 
 
@@ -835,14 +940,21 @@ margin-right: 15px;
         font-size: 16px;
         font-weight: 400;
         text-align: center;
-        width: 283px;
+        width: 289px;
+        height: 42px;
+
     }
-    
+    .Signup__playstore{
+        margin-left: 1rem;
+    }
+
     .Signup__playstore img {
         margin: 1rem 1rem 0 0;
-        height: 40px;
         margin-bottom: 2rem;
-     
+        width: 113.16px;
+        height: 33.64px;
+
+
 
     }
 
@@ -850,33 +962,17 @@ margin-right: 15px;
         display: none;
     }
 
-    .Iphone12 .mobile{
+    .Iphone12 .mobile {
         display: block;
-        height: 437px;
-        width: 207px;
-        margin: 0 3.5rem;
+        object-fit: none;
+        height: 440px;
+        width: 225px;
+        margin: 5rem 2.5rem;
     }
 
-
-    .container {
-        height: 224px;
-        top: 3rem;
-      } 
-      .comp:hover .dark, .comp:hover .white{
+    .comp:hover .dark,
+    .comp:hover .white {
         display: none;
-      }
-
-
     }
 
-   
-    
-     
-
-   
-    
-    
-
-
-
-
+}

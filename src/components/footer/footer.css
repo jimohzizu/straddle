@@ -17,7 +17,7 @@
     text-align: left;
     color: white;
     width: 377px;
-    margin: 3rem 14rem 0 0;
+    margin: 3rem 14rem 0 46px;
 }
 
 .top__content-playstore {
@@ -96,11 +96,9 @@ hr {
 
 @media screen and (max-width:550px) {
     .Footer__content {
-        height: 750px;
-        gap: 30px;
-        width: 413px;
-
-
+        height: 805px;
+        width: 100vw;
+        position: relative;
     }
 
     .top__content {
@@ -109,26 +107,34 @@ hr {
     }
 
     .top__content h1 {
-        font-size: 23px;
-        width: 20rem;
-        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.001em;
+        text-align: center;
+        margin: 0rem 0rem 0 55px !important;
+        width: 219px;
+        height: 60px;
+
     }
 
     .top__content-playstore {
-        margin: 2rem 0rem 0rem 0rem;
+        margin: 2rem 0rem 0rem 2rem;
     }
 
     .top__content-playstore img {
-        height: 38px;
+        width: 113.16px;
+        height: 33.64px;
     }
 
     hr {
-        margin: 0.6rem 1rem;
-        width: 22rem;
+        margin: 0.6rem 0rem;
+        height: 1px;
+
     }
 
     .middle__content-middle {
-        margin-left: 6rem;
+        margin-left: 8rem;
     }
 
     .middle__content p {
@@ -136,6 +142,7 @@ hr {
         font-size: 15px;
         line-height: 25px;
         margin: 0.5rem 0;
+        width: 292px;
     }
 
     .middle__content-middle p {
@@ -182,7 +189,7 @@ hr {
     }
 
     .middle__content {
-        height: 240px;
+        height: 258px;
         display: block;
         margin-bottom: 7rem;
     }
@@ -192,23 +199,41 @@ hr {
         flex-direction: column;
     }
 
+    #number {
+        margin-left: 2rem;
+    }
+
+
     .rights {
         font-size: 14px;
-        height: 1rem;
-        margin-top: -1rem;
-        margin-left: 3rem;
+        width: 298px;
+        height: 21px;
 
+        margin-left: 3rem;
     }
 
     .white__logo {
         display: flex;
         flex-direction: column;
         margin-left: 2rem;
+        align-items: center;
     }
 
     .white__logo img {
         width: 217px;
         margin-right: 7px;
+    }
+
+    #line {
+        position: absolute;
+        bottom: 6rem;
+        width: 100vw;
+    }
+
+    #playline {
+        position: absolute;
+        top: 13rem;
+        width: 100vw;
     }
 
 
