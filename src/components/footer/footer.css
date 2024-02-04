@@ -32,7 +32,7 @@
 hr {
     color: white;
     margin: 2rem 4rem;
-    width: 74rem;
+    width: 85vw;
 }
 
 .middle__content-container {
@@ -93,7 +93,14 @@ hr {
 
 
 }
-
+@media screen and (min-width:1440px) {
+    .Footer__content {
+        width: 100vw;
+    }
+    .rights {
+    text-align: center;
+    }
+}
 @media screen and (max-width:550px) {
     .Footer__content {
         height: 805px;
@@ -119,7 +126,7 @@ hr {
     }
 
     .top__content-playstore {
-        margin: 2rem 0rem 0rem 2rem;
+        margin: 2rem 0rem 0rem 3rem;
     }
 
     .top__content-playstore img {

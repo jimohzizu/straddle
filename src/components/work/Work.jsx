@@ -98,7 +98,7 @@ const Comp = ({ h1, p, className,img1,img2}) => {
 
 const Header = () => {
   return (
-    <div className="straddle__header ">
+    <div className="straddle__header section__padding ">
     <div className="straddle__header-content">
       <div className="container">
       <h1 className="">You won buy, you won sell,<br/>Reason <span>Straddle</span></h1>

@@ -1,7 +1,6 @@
 .straddle__header {
     display: flex;
     /* position: absolute; */
-
 }
 
 .straddle__header-content {
@@ -515,6 +514,30 @@ span {
     display: none;
 }
 
+@media screen and (min-width:1440px) {
+    .straddle__header { 
+        justify-content: space-around;
+    }
+    .straddle__about {
+        width: 80vw;
+    }
+    .straddle__different {
+        margin-left: 20rem;
+    }
+    .straddle__about {
+        padding: 4rem;
+    }
+    
+    .download__links{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+}
+
 @media screen and (max-width:1050px) {
     .straddle__header-content h1 {
         font-size: 35px;
@@ -525,6 +548,7 @@ span {
         font-size: 15px;
         margin-top: 2rem;
     }
+    
 
 
     .straddle__header-content__input input {
@@ -787,7 +811,7 @@ span {
         font-size: 36px;
         font-weight: 700;
         line-height: 66px;
-        width: 305px;
+        width: 280px;
 
     }
 

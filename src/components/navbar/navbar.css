@@ -1,12 +1,12 @@
 .straddle__navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0.5rem 4rem;
     height: 80px;
     color: rgb(20, 20, 20);
     background-color: rgb(255, 252, 252);
-    width: 100vw;
+    width: 98vw;
 }
 
 .straddle__navbar-links {
@@ -81,6 +81,7 @@ li:hover {
     Gap: 8px;
     color: #06232D;
     border: none;
+    width: max-content;
 
 }
 
@@ -162,6 +163,7 @@ li:hover {
 @media screen and (max-width:550px) {
     .straddle__navbar {
         padding: 2rem;
+        width: fit-content;
     }
 
     .straddle__navbar-contact {
